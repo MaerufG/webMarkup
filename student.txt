@@ -1,0 +1,4 @@
+Student name: Govand Maeruf
+Student number: 553994
+Student class: INF1D
+URL student GitHub repository: https://github.com/MaerufG/webMarkup
