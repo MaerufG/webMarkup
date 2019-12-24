@@ -3,20 +3,25 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Information about Schalkwoud and Haarlem">
+    <meta name="keywords" content="Haarlem, Schalkwoud, Mudo, Martial arts, Netherlands, Noord-Holland, Sports">
+    <meta name="author" content="Govand Maeruf">
+    <meta name="" content="">
     <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <title></title>
+    <title>Hapki-do</title>
   </head>
   <body>
     <header class="Mainheader">
-      <h1></h1>
-      <h2></h2>
+      <h1>Hapki-do</h1>
+      <h2>A piece of Korea in our beautiful city of Haarlem</h2>
     </header>
     <nav>
       <ul>
-        <li class="Nav"><a href="#Maincontent">Belangrijkste inhoud</a></li>
-        <li class="Nav"><a href="#Secondarycontent">Secundaire inhoud</a></li>
-        <li class="Nav"><a href="#Sport">Sport</a></li>
-        <li class="Nav"><a href="#Referal">Doorverwijzing</a></li>
+        <li class="Nav"><a href="#Maincontent">Haarlem</a></li>
+        <li class="Nav"><a href="#Secondarycontent">Schalkwoud Haarlem</a></li>
+        <li class="Nav"><a href="#Sport">Sports</a></li>
+        <li class="Nav"><a href="#Referal"></a>HWA-RANG DRAGON</li>
+        <li class="Nav"><a href="#Contact"></a>Contact</li>
       </ul>
     </nav>
     <main>
@@ -47,8 +52,9 @@
         </article>
       </section>
       <section id="Sport">
+        <!--H1 met de title(sports) plus tekst in de p met de spotnaam(mudo) in h3 tag. dan info over de sportclubs(de ol hieronder) en geef aan dat je op de afbeeldingen kan klikken door dit te melden in een h4 tag*/-->
         <ol>
-          <li>
+          <li data-id="1" data-title="">
             <a href="#">
               <img src="" alt="">
             </a>
@@ -112,23 +118,26 @@
       </section>
       <aside id="Referal"class="">
         <header>
-          <h1></h1>
+          <h1 class="headerAside">HWA-RANG DRAGON</h1>
         </header>
+        <!--hier moeten nog p tags met tekst komen en een img+ alles in de aside in een a href zetten naar de website benoemd in de opdracht*/-->
         <footer></footer>
       </aside>
-      <form class="" action="http://witan.nl/inholland/testform.php" method="post">
-        <fieldset>
+      <section id="Contact">
+        <form class="" action="http://witan.nl/inholland/testform.php" method="post">
           <legend>Contact</legend>
-          <label for="naam">Naam:</label>
-          <input type="text" id="naam" name="naam" />
-          <label for="email">E-mail:</label>
-          <input type="email" id= "email" name="email"/>
-          <label for="bericht">Bericht:</label>
-          <textarea id="bericht" name="bericht">Type hier uw bericht</textarea>
-          <input type="submit" value="verstuur" />
-        </fieldset>
-      </form>
+          <fieldset>
+            <label for="naam">Naam:</label>
+            <input type="text" id="naam" name="naam" />
+            <label for="email">E-mail:</label>
+            <input type="email" id= "email" name="email"/>
+            <label for="bericht">Bericht:</label>
+            <textarea id="bericht" name="bericht">Type hier uw bericht</textarea>
+            <input type="submit" value="verstuur" />
+          </fieldset>
+        </form>
+      </section>
     </main>
-    <footer>&copy; Govand Maeruf</footer>
+    <footer class="Copyright">&copy; Govand Maeruf</footer>
   </body>
 </html>
